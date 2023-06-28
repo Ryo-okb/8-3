@@ -1,0 +1,179 @@
+/* リセット用スタイル */
+
+
+.title {
+    text-align: center;
+}
+
+.action-link {
+    float: right;
+    margin-right: 10px;
+}
+
+.folder_title {
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.folder-name {
+    font-size: 20px;
+}
+
+.folder-header {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+    margin-right: 82%;
+}
+
+
+
+.task-table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.task-table th,
+.task-table td {
+    width: 30%; /* テーブル幅を均等に分配する場合は 100% / 列数 */
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+.task-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.task-table td a {
+    margin-right: 5px;
+}
+
+.folder-name {
+    font-size: 20px;
+}
+
+.delete-button {
+    color: red;
+}
+
+.delete-form {
+    display: inline;
+}
+
+.delete-button {
+    color: red;
+}
+
+.task-list {
+    display: none;
+    width: 100%;
+    padding: 0;
+}
+
+.task-item {
+    margin-bottom: 5px;
+}
+
+.edit-link {
+    margin-left: 10px;
+}
+
+.delete-button {
+    color: red;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-title {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.user-name {
+    color: #fff;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.logout {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.logout:hover {
+    background-color: #ccc;
+}
+
+.task-status {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+.task-status.着手中 {
+    background-color: green;
+    color: white;
+}
+
+.task-status.未着手 {
+    background-color: red;
+    color: white;
+}
+
+.task-status.完了 {
+    background-color: gray;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.form {
+    width: 400px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.signup {
+   text-align: center; 
+}
+
